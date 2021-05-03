@@ -1,5 +1,41 @@
-#container {
+body {
     width: 100%;
     height: auto;
+}
+
+#google {
+    position: relative;
     text-align: center;
+    margin-top: 20vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    word-spacing: 10px;
+}
+
+.search {
+    text-align: center;
+    padding: 10px;
+}
+
+.search-button  {
+    padding: 10px;
 }
