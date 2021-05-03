@@ -19,10 +19,18 @@ ul {
 }
 
 nav ul li a {
-    width: 100%;
     color: black;
     padding: 12px;
     float: left;
+}
+
+footer ul li a {
+    height: 52vh;
+    padding: 12px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .left-nav {
@@ -42,4 +50,14 @@ nav ul li a {
 
 .search-button  {
     padding: 12px;
+}
+
+.bottom-left {
+    display: flex;
+    justify-content: left;
+}
+
+.bottom-right {
+    display: flex;
+    justify-content: right;
 }
