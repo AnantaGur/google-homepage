@@ -1,6 +1,10 @@
 body {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    font-size: 14px;
+}
+
+#container {
+    min-height: 100%;
 }
 
 #google {
@@ -9,8 +13,13 @@ body {
     margin-top: 20vh;
 }
 
+main {
+    overflow: auto;
+}
+
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul {
@@ -19,28 +28,34 @@ ul {
 }
 
 nav ul li a {
-    color: black;
     padding: 12px;
     float: left;
 }
 
 footer ul li a {
-    height: 52vh;
+    width: 100%;
+    height: auto;
     padding: 12px;
-    color: black;
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    /* flex-wrap: wrap;
+    align-items: flex-end; */
+}
+
+footer {
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+    text-align: center;  
 }
 
 .left-nav {
     display: flex;
-    justify-content: left;
 }
 
 .right-nav {
     display: flex;
-    justify-content: right;
 }
 
 .search {
@@ -54,10 +69,8 @@ footer ul li a {
 
 .bottom-left {
     display: flex;
-    justify-content: left;
 }
 
 .bottom-right {
     display: flex;
-    justify-content: right;
 }
